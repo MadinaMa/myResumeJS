@@ -1,0 +1,208 @@
+body {
+    background-image: url(https://cdn.glitch.global/42179acd-8498-49d3-9c3e-1e75876f8455/back.jpg?v=1695403282464);
+}
+#par {
+    font-size: 35px;
+    color: rgb(255, 189, 226);
+    text-shadow: 3px 3px  rgb(29,4,49) ;
+    margin-top: 300px;
+    margin-left: 50px;
+    font-family: 'Mooli', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px; 
+}
+.link {
+    font-size: 25px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(189,7,81);
+    font-family: 'Acme', sans-serif;
+}
+.projects {
+    margin-top: 400px;
+    margin-left: 30%;
+    width: 600px; 
+}
+.btn1  {
+    color: beige;
+    text-shadow: 2px 4px rgb(189,7,81);
+    font-size: 50px;
+    background-color: black;
+    border: 2px solid rgb(29,4,49);
+    opacity: .6;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Mooli', sans-serif;
+}
+.sites {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;   
+}
+.site {
+    opacity: 0;
+}
+.card {
+   background-color: beige;
+   border: 1px solid beige;
+}
+h2 {
+    font-size: 20px;
+    font-family: 'Mooli', sans-serif;
+    text-align: center;   
+}
+.btn {
+    margin-left: 110px;
+}
+
+h1 {
+    color: beige;
+    text-shadow: 2px 4px rgb(189,7,81);
+    font-size: 50px;
+    background-color: black;
+    border: none;
+    opacity: .6;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Mooli', sans-serif;
+}
+.contacts {
+    margin-top: 300px;
+}
+.fill {
+    margin-left: 510px;
+}
+.labels {
+    margin-left: 470px;
+}
+label {
+    color: rgb(255,189,226);
+    font-size: 20px;
+    font-weight: bolder;  
+    margin: 10px;
+}
+h3 {
+    color: rgb(255,189,226);
+    text-shadow: 4px 4px rgb(29,4,49) ;
+    font-size: 35px;
+  
+    font-family: 'Acme', sans-serif;
+}
+h3:hover {
+    scale: 1.5;
+}
+.send {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+    width: 150px;
+    background-color: rgb(189,7,81);
+    border: 2px solid rgb(29,4,49);
+    color: wheat;
+    margin-left: 430px;
+}
+.send:hover {
+    background-color: rgb(29,4,49);
+    border: 1px solid rgb(189,7,81);
+}
+#button {
+   margin-left: 13%;
+   margin-bottom: 50px;
+   width: 20%;
+}
+input {
+    width: 250px;
+    padding: 10px;
+   
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.images2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+p {
+    color: beige;
+}
+
+
+@media all and (max-width: 428px) {
+    body {
+        outline: 4px solid green;
+    }
+   #par {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 150px;
+   }
+   .navbar {
+    flex-direction: column;    
+}
+   .link {
+    font-size: 15px;
+    margin-left: 250px;
+}
+.projects {
+    margin-top: 270px;
+    margin-left: 10%;
+    width: 350px; 
+}
+.btn1  {
+    font-size: 30px;
+}
+.sites {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;  
+   
+}
+.card {
+    margin: 25px;
+    margin-left: 45px;
+}
+h1 {
+    font-size: 30px;
+ 
+}
+.images {
+   flex-direction: column;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.images2 {
+   flex-direction: column;
+    margin: 20px;
+    margin-left: 70px;
+}
+img {
+    margin-top: 40px;
+}
+.fill {
+    margin-left: 50px;
+}
+.labels {
+    margin-left: 98px;
+}
+.send {
+   
+    font-size: 15px;
+ 
+    margin-left: 90px;
+}
+
+}
+
+
+
+
+
+
+
+
